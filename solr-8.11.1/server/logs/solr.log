@@ -1,0 +1,214 @@
+2022-04-24 23:38:15.890 INFO  (main) [   ] o.e.j.u.log Logging initialized @1055ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-04-24 23:38:16.058 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 1.8.0_311-b11
+2022-04-24 23:38:16.069 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/prasanna/UNCC_stuff/solr-8.11.1/server/contexts/] at interval 0
+2022-04-24 23:38:16.321 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2022-04-24 23:38:16.329 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2022-04-24 23:38:16.330 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2022-04-24 23:38:16.331 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2022-04-24 23:38:16.379 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2022-04-24 23:38:16.394 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.11.1
+2022-04-24 23:38:16.394 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2022-04-24 23:38:16.394 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/prasanna/UNCC_stuff/solr-8.11.1
+2022-04-24 23:38:16.395 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2022-04-24T23:38:16.395Z
+2022-04-24 23:38:16.404 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: /Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr
+2022-04-24 23:38:16.404 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/solr.xml
+2022-04-24 23:38:16.462 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@70e8f8e, but no JMX reporters were configured - adding default JMX reporter.
+2022-04-24 23:38:16.846 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2022-04-24 23:38:17.032 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@48f5bde6[provider=null,keyStore=null,trustStore=null]
+2022-04-24 23:38:17.032 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@48f5bde6[provider=null,keyStore=null,trustStore=null]
+2022-04-24 23:38:17.155 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@54f5f647[provider=null,keyStore=null,trustStore=null]
+2022-04-24 23:38:17.155 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@54f5f647[provider=null,keyStore=null,trustStore=null]
+2022-04-24 23:38:17.188 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2022-04-24 23:38:17.315 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient core cache for max 2147483647 cores with initial capacity of 1024
+2022-04-24 23:38:17.323 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2022-04-24 23:38:17.372 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@70e8f8e
+2022-04-24 23:38:17.372 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@70e8f8e
+2022-04-24 23:38:17.373 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@70e8f8e
+2022-04-24 23:38:17.401 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 2 core definitions underneath /Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr
+2022-04-24 23:38:17.402 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [wikicore, mycore]
+2022-04-24 23:38:17.446 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.11.1
+2022-04-24 23:38:17.457 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.c.SolrResourceLoader Added 1 libs to classloader, from paths: [/Users/prasanna/UNCC_stuff/solr-8.11.1/dist]
+2022-04-24 23:38:17.482 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@7c37508a{/solr,file:///Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr-webapp/webapp/,AVAILABLE}{/Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr-webapp/webapp}
+2022-04-24 23:38:17.489 WARN  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.c.SolrConfig solrconfig.xml: <jmx> is no longer supported, use solr.xml:/metrics/reporter section instead
+2022-04-24 23:38:17.496 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@e15b7e8{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2022-04-24 23:38:17.496 INFO  (main) [   ] o.e.j.s.Server Started @2663ms
+2022-04-24 23:38:17.519 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.s.IndexSchema Schema name=default-config
+2022-04-24 23:38:17.618 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.11.1
+2022-04-24 23:38:17.619 WARN  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.c.SolrConfig solrconfig.xml: <jmx> is no longer supported, use solr.xml:/metrics/reporter section instead
+2022-04-24 23:38:17.632 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.s.IndexSchema Schema name=default-config
+2022-04-24 23:38:17.711 WARN  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2022-04-24 23:38:17.711 WARN  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2022-04-24 23:38:17.711 WARN  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2022-04-24 23:38:17.711 WARN  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2022-04-24 23:38:17.711 WARN  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2022-04-24 23:38:17.711 WARN  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2022-04-24 23:38:17.711 WARN  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2022-04-24 23:38:17.711 WARN  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2022-04-24 23:38:17.711 WARN  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2022-04-24 23:38:17.711 WARN  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2022-04-24 23:38:17.721 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2022-04-24 23:38:17.808 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.c.CoreContainer Creating SolrCore 'wikicore' using configuration from instancedir /Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/wikicore, trusted=true
+2022-04-24 23:38:17.811 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2022-04-24 23:38:17.840 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.c.CoreContainer Creating SolrCore 'mycore' using configuration from instancedir /Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/mycore, trusted=true
+2022-04-24 23:38:17.841 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.mycore' (registry 'solr.core.mycore') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@70e8f8e
+2022-04-24 23:38:17.841 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.wikicore' (registry 'solr.core.wikicore') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@70e8f8e
+2022-04-24 23:38:17.859 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.c.SolrCore [[mycore] ] Opening new SolrCore at [/Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/mycore], dataDir=[/Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/mycore/data/]
+2022-04-24 23:38:17.859 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.c.SolrCore [[wikicore] ] Opening new SolrCore at [/Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/wikicore], dataDir=[/Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/wikicore/data/]
+2022-04-24 23:38:17.908 WARN  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.r.VelocityResponseWriter VelocityResponseWriter is deprecated. This may be removed in future Solr releases. Please SOLR-14065.
+2022-04-24 23:38:17.908 WARN  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.r.VelocityResponseWriter VelocityResponseWriter is deprecated. This may be removed in future Solr releases. Please SOLR-14065.
+2022-04-24 23:38:18.394 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2022-04-24 23:38:18.394 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2022-04-24 23:38:18.394 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2022-04-24 23:38:18.394 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2022-04-24 23:38:18.411 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2022-04-24 23:38:18.411 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2022-04-24 23:38:18.411 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2022-04-24 23:38:18.411 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2022-04-24 23:38:18.531 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/wikicore/conf
+2022-04-24 23:38:18.531 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/mycore/conf
+2022-04-24 23:38:18.534 WARN  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.r.VelocityResponseWriter Error loading init.properties.file specified property file: velocity-init.properties => org.apache.solr.core.SolrResourceNotFoundException: Can't find resource 'velocity-init.properties' in classpath or '/Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/wikicore'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:390)
+org.apache.solr.core.SolrResourceNotFoundException: Can't find resource 'velocity-init.properties' in classpath or '/Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/wikicore'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:390) ~[?:?]
+	at org.apache.solr.response.VelocityResponseWriter.inform(VelocityResponseWriter.java:136) ~[?:?]
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:725) ~[?:?]
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:1037) ~[?:?]
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:921) ~[?:?]
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1452) ~[?:?]
+	at org.apache.solr.core.CoreContainer.lambda$load$11(CoreContainer.java:873) ~[?:?]
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:202) ~[metrics-core-4.1.5.jar:4.1.5]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_311]
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:218) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_311]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_311]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_311]
+2022-04-24 23:38:18.534 WARN  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.r.VelocityResponseWriter Error loading init.properties.file specified property file: velocity-init.properties => org.apache.solr.core.SolrResourceNotFoundException: Can't find resource 'velocity-init.properties' in classpath or '/Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/mycore'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:390)
+org.apache.solr.core.SolrResourceNotFoundException: Can't find resource 'velocity-init.properties' in classpath or '/Users/prasanna/UNCC_stuff/solr-8.11.1/server/solr/mycore'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:390) ~[?:?]
+	at org.apache.solr.response.VelocityResponseWriter.inform(VelocityResponseWriter.java:136) ~[?:?]
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:725) ~[?:?]
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:1037) ~[?:?]
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:921) ~[?:?]
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1452) ~[?:?]
+	at org.apache.solr.core.CoreContainer.lambda$load$11(CoreContainer.java:873) ~[?:?]
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:202) ~[metrics-core-4.1.5.jar:4.1.5]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_311]
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:218) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_311]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_311]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_311]
+2022-04-24 23:38:18.544 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2022-04-24 23:38:18.544 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2022-04-24 23:38:18.549 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxQueryFrequency=0.01,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4}
+2022-04-24 23:38:18.549 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxQueryFrequency=0.01,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4}
+2022-04-24 23:38:18.557 INFO  (coreLoadExecutor-13-thread-2) [   x:mycore] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2022-04-24 23:38:18.557 INFO  (coreLoadExecutor-13-thread-1) [   x:wikicore] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2022-04-24 23:38:18.565 INFO  (searcherExecutor-15-thread-1-processing-x:wikicore) [   x:wikicore] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2022-04-24 23:38:18.565 INFO  (searcherExecutor-15-thread-1-processing-x:wikicore) [   x:wikicore] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2022-04-24 23:38:18.566 INFO  (searcherExecutor-17-thread-1-processing-x:mycore) [   x:mycore] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2022-04-24 23:38:18.566 INFO  (searcherExecutor-17-thread-1-processing-x:mycore) [   x:mycore] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2022-04-24 23:38:18.570 INFO  (searcherExecutor-15-thread-1-processing-x:wikicore) [   x:wikicore] o.a.s.c.SolrCore [wikicore]  Registered new searcher autowarm time: 0 ms
+2022-04-24 23:38:18.570 INFO  (searcherExecutor-17-thread-1-processing-x:mycore) [   x:mycore] o.a.s.c.SolrCore [mycore]  Registered new searcher autowarm time: 0 ms
+2022-04-24 23:38:35.268 INFO  (qtp1985836631-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1650843515214} status=0 QTime=4
+2022-04-24 23:38:35.273 INFO  (qtp1985836631-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650843515214} status=0 QTime=9
+2022-04-24 23:38:35.285 INFO  (qtp1985836631-51) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650843515214} status=0 QTime=3
+2022-04-24 23:38:48.385 INFO  (qtp1985836631-53) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1650843515214} status=0 QTime=0
+2022-04-24 23:38:48.388 INFO  (qtp1985836631-50) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650843515214} status=0 QTime=3
+2022-04-24 23:38:48.391 INFO  (qtp1985836631-30) [   x:mycore] o.a.s.c.S.Request [mycore]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1650843515214&ts=1650843515214} status=503 QTime=1
+2022-04-24 23:38:48.392 INFO  (qtp1985836631-29) [   x:mycore] o.a.s.c.S.Request [mycore]  webapp=/solr path=/admin/system params={wt=json&_=1650843528380} status=0 QTime=4
+2022-04-24 23:38:48.392 INFO  (qtp1985836631-28) [   x:mycore] o.a.s.c.S.Request [mycore]  webapp=/solr path=/replication params={wt=json&command=details&_=1650843528380} status=0 QTime=5
+2022-04-24 23:38:48.394 INFO  (qtp1985836631-27) [   x:mycore] o.a.s.c.S.Request [mycore]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1650843528380} status=0 QTime=8
+2022-04-24 23:38:56.839 INFO  (qtp1985836631-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1650843515214} status=0 QTime=0
+2022-04-24 23:38:56.841 INFO  (qtp1985836631-55) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650843515214} status=0 QTime=1
+2022-04-24 23:39:07.547 INFO  (qtp1985836631-53) [   x:mycore] o.a.s.c.S.Request [mycore]  webapp=/solr path=/select params={q=*:*&indent=true&q.op=OR&_=1650843536826} hits=48 status=0 QTime=27
+2022-04-24 23:39:07.591 INFO  (qtp1985836631-55) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1650843515214} status=0 QTime=0
+2022-04-24 23:39:07.593 INFO  (qtp1985836631-54) [   x:mycore] o.a.s.c.S.Request [mycore]  webapp=/solr path=/select params={q=*:*&indent=true&q.op=OR&_=1650843536826} hits=48 status=0 QTime=1
+2022-04-24 23:39:07.594 INFO  (qtp1985836631-50) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650843515214} status=0 QTime=3
+2022-04-24 23:39:25.485 INFO  (qtp1985836631-57) [   x:mycore] o.a.s.c.S.Request [mycore]  webapp=/solr path=/select params={q=name:game&indent=true&q.op=OR&_=1650843536826} hits=2 status=0 QTime=23
+2022-04-24 23:39:25.508 INFO  (qtp1985836631-54) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1650843515214} status=0 QTime=0
+2022-04-24 23:39:25.508 INFO  (qtp1985836631-53) [   x:mycore] o.a.s.c.S.Request [mycore]  webapp=/solr path=/select params={q=name:game&indent=true&q.op=OR&_=1650843536826} hits=2 status=0 QTime=0
+2022-04-24 23:39:25.511 INFO  (qtp1985836631-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650843515214} status=0 QTime=3
+2022-04-24 23:49:12.758 INFO  (qtp1985836631-65) [   x:wikicore] o.a.s.c.PluginBag Going to create a new requestHandler with {type = requestHandler,name = /dihupdate,class = org.apache.solr.handler.dataimport.DataImportHandler,attributes = {startup=lazy, name=/dihupdate, class=org.apache.solr.handler.dataimport.DataImportHandler},args = {defaults={config=data-config.xml}}} 
+2022-04-24 23:49:12.760 WARN  (qtp1985836631-65) [   x:wikicore] o.a.s.h.d.DataImportHandler Data Import Handler is deprecated as of Solr 8.6. See SOLR-14066 for more details.
+2022-04-24 23:49:12.767 INFO  (qtp1985836631-65) [   x:wikicore] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2022-04-24 23:49:12.772 INFO  (qtp1985836631-65) [   x:wikicore] o.a.s.h.d.c.DIHConfiguration The field :timestamp present in DataConfig does not have a counterpart in Solr Schema
+2022-04-24 23:49:12.772 INFO  (qtp1985836631-65) [   x:wikicore] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2022-04-24 23:49:12.780 INFO  (Thread-29) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2022-04-24 23:49:12.780 INFO  (qtp1985836631-65) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={command=full-import} status=0 QTime=22
+2022-04-24 23:49:12.790 INFO  (Thread-29) [   ] o.a.s.h.d.SimplePropertiesWriter Read dihupdate.properties
+2022-04-24 23:49:28.990 INFO  (qtp1985836631-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1650844168941} status=0 QTime=0
+2022-04-24 23:49:28.995 INFO  (qtp1985836631-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650844168941} status=0 QTime=4
+2022-04-24 23:49:29.001 INFO  (qtp1985836631-63) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650844168941} status=0 QTime=3
+2022-04-24 23:49:32.069 INFO  (qtp1985836631-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1650844168941} status=0 QTime=0
+2022-04-24 23:49:32.073 INFO  (qtp1985836631-51) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1650844172063} status=0 QTime=1
+2022-04-24 23:49:32.073 INFO  (qtp1985836631-57) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1650844168941&ts=1650844168941} status=503 QTime=0
+2022-04-24 23:49:32.075 INFO  (qtp1985836631-62) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650844168941} status=0 QTime=4
+2022-04-24 23:49:32.078 INFO  (qtp1985836631-26) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/replication params={wt=json&command=details&_=1650844172063} status=0 QTime=6
+2022-04-24 23:49:32.079 INFO  (qtp1985836631-50) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/admin/system params={wt=json&_=1650844172063} status=0 QTime=6
+2022-04-24 23:49:35.158 INFO  (qtp1985836631-67) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1650844168941} status=0 QTime=0
+2022-04-24 23:49:35.158 INFO  (qtp1985836631-61) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:35.160 INFO  (qtp1985836631-29) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650844168941} status=0 QTime=2
+2022-04-24 23:49:35.181 INFO  (qtp1985836631-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1650844168941} status=0 QTime=0
+2022-04-24 23:49:35.183 INFO  (qtp1985836631-50) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:35.183 INFO  (qtp1985836631-59) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=show-config&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:35.186 INFO  (qtp1985836631-62) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650844168941} status=0 QTime=4
+2022-04-24 23:49:35.194 INFO  (qtp1985836631-61) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:35.456 INFO  (Thread-29) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2022-04-24 23:49:37.016 INFO  (searcherExecutor-15-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2022-04-24 23:49:37.022 INFO  (searcherExecutor-15-thread-1) [   ] o.a.s.c.SolrCore [wikicore]  Registered new searcher autowarm time: 3 ms
+2022-04-24 23:49:37.042 INFO  (Thread-29) [   ] o.a.s.h.d.SimplePropertiesWriter Read dihupdate.properties
+2022-04-24 23:49:37.042 INFO  (Thread-29) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dihupdate.properties
+2022-04-24 23:49:37.043 INFO  (Thread-29) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:24.251
+2022-04-24 23:49:37.043 INFO  (Thread-29) [   ] o.a.s.u.p.LogUpdateProcessorFactory [wikicore]  webapp=/solr path=/dihupdate params={command=full-import} status=0 QTime=22{deleteByQuery=*:* (-1731035558382141440),add=[44496246 (1731035558481756160), 44496257 (1731035558527893504), 44496261 (1731035558529990656), 44496262 (1731035558532087808), 44496264 (1731035558534184960), 44496266 (1731035558538379264), 44496268 (1731035558539427840), 44496271 (1731035558541524992), 44496274 (1731035558544670720), 44496276 (1731035558545719296), ... (63214 adds)],commit=} 0 24284
+2022-04-24 23:49:38.012 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:39.102 INFO  (qtp1985836631-61) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:44.705 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2022-04-24 23:49:44.707 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.h.d.c.DIHConfiguration The field :timestamp present in DataConfig does not have a counterpart in Solr Schema
+2022-04-24 23:49:44.707 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2022-04-24 23:49:44.707 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={core=wikicore&indent=on&commit=true&name=dihupdate&clean=false&wt=json&command=full-import&_=1650844175151&verbose=false} status=0 QTime=2
+2022-04-24 23:49:44.707 INFO  (Thread-31) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2022-04-24 23:49:44.710 INFO  (Thread-31) [   ] o.a.s.h.d.SimplePropertiesWriter Read dihupdate.properties
+2022-04-24 23:49:44.711 INFO  (qtp1985836631-61) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:46.314 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:47.874 INFO  (qtp1985836631-61) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:49.096 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:50.176 INFO  (qtp1985836631-61) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:51.143 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:53.200 INFO  (qtp1985836631-61) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:54.017 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:54.774 INFO  (qtp1985836631-61) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:49:59.439 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:50:01.058 INFO  (qtp1985836631-61) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:50:02.026 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:50:03.362 INFO  (qtp1985836631-61) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:50:04.276 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:50:04.792 INFO  (Thread-31) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2022-04-24 23:50:05.611 INFO  (qtp1985836631-61) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:50:05.678 INFO  (searcherExecutor-15-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2022-04-24 23:50:05.680 INFO  (searcherExecutor-15-thread-1) [   ] o.a.s.c.SolrCore [wikicore]  Registered new searcher autowarm time: 0 ms
+2022-04-24 23:50:05.694 INFO  (Thread-31) [   ] o.a.s.h.d.SimplePropertiesWriter Read dihupdate.properties
+2022-04-24 23:50:05.694 INFO  (Thread-31) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dihupdate.properties
+2022-04-24 23:50:05.694 INFO  (Thread-31) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:20.983
+2022-04-24 23:50:05.694 INFO  (Thread-31) [   ] o.a.s.u.p.LogUpdateProcessorFactory [wikicore]  webapp=/solr path=/dihupdate params={core=wikicore&indent=on&commit=true&name=dihupdate&clean=false&wt=json&command=full-import&_=1650844175151&verbose=false} status=0 QTime=2{add=[44496246 (1731035591843250176), 44496257 (1731035591846395904), 44496261 (1731035591846395905), 44496262 (1731035591847444480), 44496264 (1731035591847444481), 44496266 (1731035591848493056), 44496268 (1731035591848493057), 44496271 (1731035591848493058), 44496274 (1731035591848493059), 44496276 (1731035591848493060), ... (63214 adds)],commit=} 0 20989
+2022-04-24 23:50:07.390 INFO  (qtp1985836631-62) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/dihupdate params={indent=on&wt=json&command=status&_=1650844175151} status=0 QTime=0
+2022-04-24 23:50:11.812 INFO  (qtp1985836631-61) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1650844168941} status=0 QTime=0
+2022-04-24 23:50:11.814 INFO  (qtp1985836631-51) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650844168941} status=0 QTime=2
+2022-04-24 23:50:16.389 INFO  (qtp1985836631-50) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/select params={q=*:*&indent=true&q.op=OR&_=1650844211797} hits=63214 status=0 QTime=4
+2022-04-24 23:50:16.421 INFO  (qtp1985836631-51) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1650844168941} status=0 QTime=0
+2022-04-24 23:50:16.421 INFO  (qtp1985836631-67) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/select params={q=*:*&indent=true&q.op=OR&_=1650844211797} hits=63214 status=0 QTime=0
+2022-04-24 23:50:16.426 INFO  (qtp1985836631-62) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650844168941} status=0 QTime=5
+2022-04-24 23:50:43.734 INFO  (qtp1985836631-61) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/select params={q=title:*png&indent=true&q.op=OR&_=1650844211797} hits=768 status=0 QTime=42
+2022-04-24 23:50:43.762 INFO  (qtp1985836631-62) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1650844168941} status=0 QTime=0
+2022-04-24 23:50:43.764 INFO  (qtp1985836631-50) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/select params={q=title:*png&indent=true&q.op=OR&_=1650844211797} hits=768 status=0 QTime=2
+2022-04-24 23:50:43.764 INFO  (qtp1985836631-59) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1650844168941} status=0 QTime=2
+2022-04-24 23:54:21.505 INFO  (qtp1985836631-55) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/browse params={} hits=63214 status=0 QTime=31
+2022-04-24 23:54:21.520 WARN  (qtp1985836631-55) [   x:wikicore] o.a.v.deprecation configuration key 'solr.resource.loader.instance' has been deprecated in favor of 'resource.loader.solr.instance'
+2022-04-24 23:54:21.520 WARN  (qtp1985836631-55) [   x:wikicore] o.a.v.deprecation configuration key 'builtin.resource.loader.instance' has been deprecated in favor of 'resource.loader.builtin.instance'
+2022-04-24 23:54:21.520 WARN  (qtp1985836631-55) [   x:wikicore] o.a.v.deprecation configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+2022-04-24 23:54:21.636 ERROR (qtp1985836631-55) [   x:wikicore] o.a.v.rendering Left side ($response.facetFields.size()) of comparison operation has null value at facets.vm[line 6, column 35]
+2022-04-24 23:54:33.559 INFO  (qtp1985836631-55) [   x:wikicore] o.a.s.c.S.Request [wikicore]  webapp=/solr path=/browse params={q=History} hits=5939 status=0 QTime=28
+2022-04-24 23:54:33.559 WARN  (qtp1985836631-55) [   x:wikicore] o.a.v.deprecation configuration key 'solr.resource.loader.instance' has been deprecated in favor of 'resource.loader.solr.instance'
+2022-04-24 23:54:33.559 WARN  (qtp1985836631-55) [   x:wikicore] o.a.v.deprecation configuration key 'builtin.resource.loader.instance' has been deprecated in favor of 'resource.loader.builtin.instance'
+2022-04-24 23:54:33.560 WARN  (qtp1985836631-55) [   x:wikicore] o.a.v.deprecation configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+2022-04-24 23:54:33.579 ERROR (qtp1985836631-55) [   x:wikicore] o.a.v.rendering Left side ($response.facetFields.size()) of comparison operation has null value at facets.vm[line 6, column 35]
